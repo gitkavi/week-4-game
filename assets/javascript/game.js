@@ -69,9 +69,9 @@ $(document).ready(function () {
         if (result > randomNumber) {
             alert("computer win!!!");
             loses +=1;
-            $("#wins").append(wins);
-            $("#loses").append(loses);
-            $("#score").append(result);
+            $("#wins").html("Wins : "+wins);
+            $("#loses").html("Loses : "+loses);
+            $("#score").html("Score : " + result);
             generate();
         }
     }

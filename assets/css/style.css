@@ -1,24 +1,19 @@
 body{
-    /* background-color: lightcyan; */
-    background-image: url(../images/aurora.jpg);
-    /* Full height */
+    background-image: url(../images/crystal_cave.jpg);
     height: 100%; 
-
-    /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
-.container{
-    width: 986px;
+#container{
+    width: 80%;
     padding:20px;
     padding-top: 40px;
     margin:0 auto;
 }
-.header{
-    /* background-color: skyblue; */
+#header{
     background: transparent;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: bold;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
@@ -30,63 +25,49 @@ body{
     border-color: blue;
     border-width: 2px;
 }
-.rules{
+#rules{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size:20px;
-    /* background-color:lavenderblush; */
+    font-size:16px;
     background: transparent;
     color:white;
     padding-left: 40px;
     padding-top:40px;
     padding-bottom: 40px;
-    height: 220px;
+    height: auto;
     border-style: solid;
     border-color: palevioletred;
     border-width: 2px;
     font-weight: bold;
+    position: relative;
+}
+section{
+    width:100%;
+    text-align: center;
+}
+section div{
+    width: calc(100%/3);
+    display: inline-block;
+    vertical-align: top;
+    margin:2%;
+    padding: 20px;
 }
 #random{
     margin:20px;
-    width:38%;
+    margin-left: 0px;
+    width:auto;
     background-color: lemonchiffon;
     padding:30px;
     padding-top:40px;
     text-align: center;
     font-family:Georgia, 'Times New Roman', Times, serif;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: bold;
     color:purple;
-    float:left;
-    height:50px;
+    height:auto;
     border-style: solid;
     border-color: red;
     border-width: 2px;
 
-}
-.result{
-    margin:20px;
-    width:38%;
-    background-color: lemonchiffon;
-    padding:30px;
-    padding-top:40px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    font-size: 20px;
-    font-weight: bold;
-    color:purple;
-    float:right;
-    height:50px;
-    border-style: solid;
-    border-color: red;
-    border-width: 2px;
-}
-.img-container{
-    padding:20px;
-    text-align: center;
-}
-.img-container img{
-    width:100px;
-    height:100px;
-    background-color: white;
 }
 #wins{
     float: left;
@@ -98,4 +79,46 @@ body{
 #score{
     text-align: center;
     padding:30px;
+}
+#result{
+    margin:20px;
+    margin-right: 0px;
+    width:auto;
+    background-color: lemonchiffon;
+    padding:30px;
+    padding-top:40px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-weight: bold;
+    color:purple;
+    height:auto;
+    border-style: solid;
+    border-color: red;
+    border-width: 2px;
+}
+#result div{
+    width: calc(100%/3);
+    display: inline-block;
+    vertical-align: top;
+    margin:2%;
+    padding: 20px;
+}
+#img-container{
+    padding:20px;
+    text-align: center;
+    width:50%;
+    padding-top:40px;
+    display: block;
+    height:auto;
+    margin: 10px auto;
+}
+#img-container img{
+    width: calc(100%/4);
+    display: inline-block;
+    vertical-align: top;
+    width:60px;
+    height:60px;
+    background-color: white;
+    margin:1%;
+    padding:5px;
 }

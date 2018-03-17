@@ -15,9 +15,9 @@
 </head>
 
 <body>
-    <div class="container">
-        <h1 class="header">Crystals Collector!</h1>
-        <div class="rules">
+    <div id="container">
+        <h1 id="header">Crystals Collector!</h1>
+        <div id="rules">
             <ul>
                 <p>* You will be given a random number at the start of the game.</p>
                 <br>
@@ -33,22 +33,22 @@
                 <p>* Each time when the game starts, the game will change the values of each crystal.</p>
             </ul>
         </div>
-        <div>
+        <section>
             <div id="random"></div>
-            <div class="result">
-                <div id="wins">Wins: </div>
-                <div id="loses">Loses: </div>
-                <div id="score">Score: </div>
+            <div id="result">
+                <span id="wins">Wins: 0</span>
+                <span id="loses">Loses: 0</span>
+                <span id="score">Score: 0</span>
             </div>
-        </div>
-        <div class="img-container">
-            <img id="img1" src="assets/images/Amethyst.png">
-            <img id="img2" src="assets/images/Kristall1.png">
-            <img id="img3" src="assets/images/red.jpg">
-            <img id="img4" src="assets/images/Temril_Crystal.png">
-        </div>
+            <div id="img-container">
+                <img id="img1" src="assets/images/Amethyst.png">
+                <img id="img2" src="assets/images/Kristall1.png">
+                <img id="img3" src="assets/images/red.jpg">
+                <img id="img4" src="assets/images/Temril_Crystal.png">
+            </div>
+        </section>
     </div>
-    <script src = "assets/javascript/game.js"></script>
+    <script src="assets/javascript/game.js"></script>
 
 </body>
 
