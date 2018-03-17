@@ -1,0 +1,101 @@
+body{
+    /* background-color: lightcyan; */
+    background-image: url(../images/aurora.jpg);
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    width: 986px;
+    padding:20px;
+    padding-top: 40px;
+    margin:0 auto;
+}
+.header{
+    /* background-color: skyblue; */
+    background: transparent;
+    font-size: 40px;
+    font-weight: bold;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    height: 50px;
+    color: white;
+    padding:20px;
+    margin-bottom: 20px;
+    border-style: solid;
+    border-color: blue;
+    border-width: 2px;
+}
+.rules{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:20px;
+    /* background-color:lavenderblush; */
+    background: transparent;
+    color:white;
+    padding-left: 40px;
+    padding-top:40px;
+    padding-bottom: 40px;
+    height: 220px;
+    border-style: solid;
+    border-color: palevioletred;
+    border-width: 2px;
+    font-weight: bold;
+}
+#random{
+    margin:20px;
+    width:38%;
+    background-color: lemonchiffon;
+    padding:30px;
+    padding-top:40px;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+    color:purple;
+    float:left;
+    height:50px;
+    border-style: solid;
+    border-color: red;
+    border-width: 2px;
+
+}
+.result{
+    margin:20px;
+    width:38%;
+    background-color: lemonchiffon;
+    padding:30px;
+    padding-top:40px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+    color:purple;
+    float:right;
+    height:50px;
+    border-style: solid;
+    border-color: red;
+    border-width: 2px;
+}
+.img-container{
+    padding:20px;
+    text-align: center;
+}
+.img-container img{
+    width:100px;
+    height:100px;
+    background-color: white;
+}
+#wins{
+    float: left;
+}
+#loses{
+    float:right;
+    padding-right: 20px;
+}
+#score{
+    text-align: center;
+    padding:30px;
+}
