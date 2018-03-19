@@ -10,13 +10,13 @@ $(document).ready(function () {
     generate();
 
     function generate() {
-        randomNumber = Math.floor(Math.random() * (100 - 1) + 1);
+        randomNumber = Math.floor(Math.random() * (120 - 19+1) + 19);
         $("#random").html("Your random number is : " + randomNumber);
 
-        crystal1 = Math.floor(Math.random() * (10 - 1) + 1);
-        crystal2 = Math.floor(Math.random() * (10 - 1) + 1);
-        crystal3 = Math.floor(Math.random() * (10 - 1) + 1);
-        crystal4 = Math.floor(Math.random() * (10 - 1) + 1);
+        crystal1 = Math.floor(Math.random() * (12 - 1+1) + 1);
+        crystal2 = Math.floor(Math.random() * (12 - 1+1) + 1);
+        crystal3 = Math.floor(Math.random() * (12 - 1+1) + 1);
+        crystal4 = Math.floor(Math.random() * (12 - 1+1) + 1);
         result = 0;
     }
 
