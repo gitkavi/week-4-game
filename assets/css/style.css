@@ -1,35 +1,40 @@
 body{
-    background-image: url(../images/crystal_cave.jpg);
     height: 100%; 
+    background-image: url(../images/crystal-wall.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    
 }
+
 #container{
     width: 80%;
     padding:20px;
     padding-top: 40px;
     margin:0 auto;
+    /* opacity: 1; */
+    /* z-index: 2; */
 }
 #header{
     background: transparent;
     font-size: 30px;
     font-weight: bold;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Mina', sans-serif;;
     text-align: center;
     height: 50px;
-    color: white;
+    color: purple;
     padding:20px;
     margin-bottom: 20px;
     border-style: solid;
     border-color: blue;
     border-width: 2px;
+
 }
 #rules{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size:16px;
+    font-family:  'Mina', sans-serif;
+    font-size:18px;
     background: transparent;
-    color:white;
+    color:red;
     padding-left: 40px;
     padding-top:40px;
     padding-bottom: 40px;
@@ -55,11 +60,11 @@ section div{
     margin:20px;
     margin-left: 0px;
     width:auto;
-    background-color: lemonchiffon;
+    background-color: white;
     padding:30px;
     padding-top:40px;
     text-align: center;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Mina', sans-serif;
     font-size: 15px;
     font-weight: bold;
     color:purple;
@@ -74,20 +79,20 @@ section div{
 }
 #loses{
     float:right;
-    padding-right: 20px;
+    padding-right: 10px;
 }
 #score{
     text-align: center;
-    padding:30px;
+    padding:10px;
 }
 #result{
     margin:20px;
     margin-right: 0px;
     width:auto;
-    background-color: lemonchiffon;
+    background-color: white;
     padding:30px;
     padding-top:40px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Mina', sans-serif;
     font-size: 15px;
     font-weight: bold;
     color:purple;
@@ -107,10 +112,9 @@ section div{
     padding:20px;
     text-align: center;
     width:50%;
-    padding-top:40px;
     display: block;
     height:auto;
-    margin: 10px auto;
+    margin: 0 auto;
 }
 #img-container img{
     width: calc(100%/4);
@@ -120,5 +124,4 @@ section div{
     height:60px;
     background-color: white;
     margin:1%;
-    padding:5px;
 }
