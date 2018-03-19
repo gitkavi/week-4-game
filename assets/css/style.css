@@ -1,10 +1,11 @@
 body{
+    content: "";
     height: 100%; 
-    background-image: url(../images/crystal-wall.jpg);
+    width:100%;
+    background-image: url("../images/crystal-wall.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-    
+    background-size: cover;    
 }
 
 #container{
@@ -13,7 +14,8 @@ body{
     padding-top: 40px;
     margin:0 auto;
     /* opacity: 1; */
-    /* z-index: 2; */
+    /* background-image: url("../images/crystal-wall.jpg"); */
+
 }
 #header{
     background: transparent;
@@ -28,20 +30,23 @@ body{
     border-style: solid;
     border-color: blue;
     border-width: 2px;
+    border-radius:10px;
 
 }
 #rules{
     font-family:  'Mina', sans-serif;
     font-size:18px;
-    background: transparent;
-    color:red;
+    /* background: transparent; */
+    background-color: silver;
+    color:blue;
     padding-left: 40px;
     padding-top:40px;
     padding-bottom: 40px;
     height: auto;
     border-style: solid;
-    border-color: palevioletred;
+    border-color:purple;
     border-width: 2px;
+    border-radius:10px;
     font-weight: bold;
     position: relative;
 }
@@ -60,18 +65,20 @@ section div{
     margin:20px;
     margin-left: 0px;
     width:auto;
-    background-color: white;
+    /* background-color: white; */
+    background-color: silver;
     padding:30px;
     padding-top:40px;
     text-align: center;
     font-family: 'Mina', sans-serif;
-    font-size: 15px;
+    font-size: 20px;
     font-weight: bold;
     color:purple;
     height:auto;
     border-style: solid;
-    border-color: red;
+    border-color: purple;
     border-width: 2px;
+    border-radius:10px;
 
 }
 #wins{
@@ -89,17 +96,19 @@ section div{
     margin:20px;
     margin-right: 0px;
     width:auto;
-    background-color: white;
+    /* background-color: white; */
+    background-color: silver;
     padding:30px;
     padding-top:40px;
     font-family: 'Mina', sans-serif;
-    font-size: 15px;
+    font-size: 20px;
     font-weight: bold;
     color:purple;
     height:auto;
     border-style: solid;
-    border-color: red;
+    border-color:purple;
     border-width: 2px;
+    border-radius: 10px;
 }
 #result div{
     width: calc(100%/3);
@@ -124,4 +133,5 @@ section div{
     height:60px;
     background-color: white;
     margin:1%;
+    border-radius: 5px;
 }
